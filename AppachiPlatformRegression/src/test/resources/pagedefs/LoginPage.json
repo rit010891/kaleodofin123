@@ -1,0 +1,31 @@
+{
+	"username": {
+		"MWEB": "id=username",
+		"DESKTOP_WEB": "id=username"
+	},
+	"password":{
+		"MWEB": "id=password",
+		"DESKTOP_WEB": "id=password"
+	},
+	"signin":{
+		"MWEB": "xpath=//span[text()='SIGN IN']",
+		"DESKTOP_WEB": "xpath=//span[text()='SIGN IN']"
+	},
+	"goalText":{
+		"DESKTOP_WEB": "xpath=//p[contains(text()='goal')]"
+	},
+	"invaliderror":{
+		"DESKTOP_WEB":"xpath=//mat-error[text()=' Please check your credentials and try again.']"
+	},
+	"forgotPassword":{
+		"DESKTOP_WEB":"xpath=//span[text()='Forgot password?']"
+	},
+	"sendresetlink":{
+		"DESKTOP_WEB":"xpath=//span[text()='SEND RESET LINK']"
+	},
+	"resendlinkconfirmation":{
+		"DESKTOP_WEB":"xpath=//span[text()='We have sent a reset link to the number you mentioned']"
+	}
+	
+}
+

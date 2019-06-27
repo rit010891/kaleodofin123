@@ -1,0 +1,21 @@
+{
+	"email": {
+		"DESKTOP_WEB": "id=email"
+	},
+	"mobilenumber": {
+		"DESKTOP_WEB": "id=login"
+	},
+	"password": {
+		"DESKTOP_WEB": "id=password"
+	},
+	"confirmpassword": {
+		"DESKTOP_WEB": "id=confirmpassword"
+	},
+	"eyeicon":{
+		"DESKTOP_WEB" : "k-password-visibilty"
+	},
+	"verify":{
+		"DESKTOP_WEB":"classname=sign-in-button"
+	}
+	
+}

@@ -1,0 +1,137 @@
+{
+	"childeducation":{
+		"MWEB":"xpath=//*[text()='Save for education']",
+		"DESKTOP_WEB":"xpath=//*[text()='Save for education']"
+	},
+	"goalAmmount":{
+		"MWEB":"xpath=//input[@name='goalAmount']",
+		"DESKTOP_WEB":"xpath=//input[@name='goalAmount']"
+	},
+	"goalDuration":{
+		"MWEB":"xpath=//input[@name='goalDuration']",
+		"DESKTOP_WEB":"xpath=//input[@name='goalDuration']"
+	},
+	"savings":{
+		"MWEB":"xpath=//*[text()='So, how much you would like to save?']",
+		"DESKTOP_WEB":"xpath=//*[text()='So, how much you would like to save?']"
+	},
+	"nextBtn":{
+		"MWEB":"xpath=//*[@id='next']",
+		"DESKTOP_WEB":"xpath=//*[@id='next']"
+	},
+	"familyMember":{
+		"MWEB":"xpath=(//*[@class='mat-radio-outer-circle'])[3]",
+		"DESKTOP_WEB":"xpath=(//*[@class='mat-radio-outer-circle'])[3]"
+	},
+	"workInFamily":{
+		"MWEB":"xpath=(//*[@class='mat-radio-outer-circle'])[2]",
+		"DESKTOP_WEB":"xpath=(//*[@class='mat-radio-outer-circle'])[2]"
+	},
+    "typeofLoan":{
+    	"MWEB":"xpath=(//*[@class='mat-checkbox-inner-container'])[1]",
+        "DESKTOP_WEB":"xpath=(//*[@class='mat-checkbox-inner-container'])[1]"
+    },
+    "loanEMI":{
+    	"MWEB":"xpath=(//*[@class='mat-radio-outer-circle'])[4]",
+        "DESKTOP_WEB":"xpath=(//*[@class='mat-radio-outer-circle'])[4]"
+    },
+    "householdExpenditure":{
+    	"MWEB":"xpath=(//*[@class='mat-checkbox-inner-container'])[1]",
+        "DESKTOP_WEB":"xpath=(//*[@class='mat-checkbox-inner-container'])[1]"
+    },
+    "yourIncomeExpenses":{
+    	"MWEB":"xpath=(//*[@class='mat-radio-outer-circle'])[1]",
+        "DESKTOP_WEB":"xpath=(//*[@class='mat-radio-outer-circle'])[1]"
+    },
+    "addressCheckBox":{
+    	"MWEB":"xpath=(//*[@class='mat-slide-toggle-thumb'])",
+        "DESKTOP_WEB":"xpath=(//*[@class='mat-slide-toggle-thumb'])"
+    },
+    "employmentDetails":{
+    	"MWEB":"xpath=(//*[@class='mat-radio-outer-circle'])[2]",
+        "DESKTOP_WEB":"xpath=(//*[@class='mat-radio-outer-circle'])[2]"
+    },
+    "knowMoreBtn":{
+     	"MWEB":"xpath=//*[text()='Know More']",
+        "DESKTOP_WEB":"xpath=//*[text()='Know More']"
+    },
+    "knowMoreContent":{
+   		"MWEB":"xpath=//*[text()='Your investments']",
+        "DESKTOP_WEB":"xpath=//*[text()='Your investments']"
+    },
+    "closeBtn":{
+    	"MWEB":"xpath=(//*[text()='cancel'])[1]",
+        "DESKTOP_WEB":"xpath=(//*[text()='cancel'])[1]"
+    },
+    "t&CBtn":{
+   		"MWEB":"xpath=//a[text()=' Terms & Conditions']",
+        "DESKTOP_WEB":"xpath=//a[text()=' Terms & Conditions']"
+    },     "t&CContent":{
+     	"MWEB":"xpath=//*[text()='MASTER SERVICES AGREEMENT']",
+        "DESKTOP_WEB":"xpath=//*[text()='MASTER SERVICES AGREEMENT']"
+    },
+    "acceptBtn":{
+    	"MWEB":"id=agree",
+        "DESKTOP_WEB":"id=agree"
+    },
+     "ifscTxt":{
+   		"MWEB":"placeholder=Enter IFSC code",
+        "DESKTOP_WEB":"xpath=//input[@name='bankIfsc']"
+    },
+     "invalidIFSCErrMsg":{
+    	"MWEB":"xpath=//*[text()='Invalid IFSC code']",
+        "DESKTOP_WEB":"xpath=//*[text()='Invalid IFSC code']"
+    },
+    "emptyIFSCErrMsg":{
+   		"MWEB":"xpath=//*[text()='IFSC code is required.']",
+        "DESKTOP_WEB":"xpath=//*[text()='IFSC code is required.']"
+    },
+    "ifscCode":{
+    	"MWEB":"placeholder=Enter IFSC code",
+        "DESKTOP_WEB":"placeholder=Enter IFSC code"
+    },
+    "searchBtn":{
+    	"MWEB":"xpath=//button[@class='col-md-5 custom-button mat-button']",
+        "DESKTOP_WEB":"xpath=//button[@class='col-md-5 custom-button mat-button']"
+    },
+    "bankName":{
+    	"MWEB":"xpath=//*[text()='ICICI BANK LTD']",
+        "DESKTOP_WEB":"xpath=//*[text()='ICICI BANK LTD']"
+    },
+    "bankBranch":{
+   		"MWEB":"xpath=//*[text()='NEELANKARAI']",
+        "DESKTOP_WEB":"xpath=//*[text()='NEELANKARAI']"
+    },
+    "bankCode":{
+    	"MWEB":"xpath=//*[text()='002694']",
+        "DESKTOP_WEB":"xpath=//*[text()='002694']"
+    },
+    "accountNumberTxt":{
+    	"MWEB":"placeholder=Bank Account Number",
+        "DESKTOP_WEB":"placeholder=Bank Account Number"
+    },
+    "setupPaymentBtn":{
+    	"MWEB":"xpath=//*[text()=' SETUP PAYMENT ']",
+        "DESKTOP_WEB":"xpath=//*[text()=' SETUP PAYMENT ']"
+    },
+    "btnPayment":{
+    	"MWEB":"xpath=//span[contains(text(),'PAYMENT')]",
+    	"DESKTOP_WEB":""
+    },
+    "congratulationsTxt":{
+    	"MWEB":"xpath=//*[text()='Congratulations!']",
+        "DESKTOP_WEB":"xpath=//*[text()='Congratulations!']"
+    },
+    "googlePlayTxt":{
+    	"MWEB":"xpath=//*[text()='Track progress with our app']",
+        "DESKTOP_WEB":"xpath=//*[text()='Track progress with our app']"
+    },
+    "googlePlayBtn":{
+    	"MWEB":"xpath=//a[contains(@href,'google')]",
+    	"DESKTOP_WEB":"xpath=//a[contains(@href,'google')]"
+    },
+   	"googlePlayScreen":{
+   		"MWEB":"xpath=//*[text()='Kaleidofin Financial Wellness']",
+        "DESKTOP_WEB":"xpath=//*[text()='Kaleidofin Financial Wellness']"
+    }
+}

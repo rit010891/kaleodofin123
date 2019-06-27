@@ -1,0 +1,47 @@
+{
+	"watchvideo":{
+		"DESKTOP_WEB":"xpath=//span[text()='Watch Tutorial']"
+	},
+	"mutevideo":{
+		"DESKTOP_WEB":"xpath=//div[@class='ytp-left-controls']/button"
+	},
+	"currentime":{
+		"DESKTOP_WEB":"xpath=//span[@class='ytp-time-current']"
+	},
+	"fullscreen":{
+		"DESKTOP_WEB":"xpath=//button[@title='Full screen']"
+	},
+	"exitfullscreen":{
+		"DESKTOP_WEB":"xpath=//button[@title='Exit full screen']"
+	},
+	"close":{
+		"DESKTOP_WEB":"xpath=//mat-icon[@class='mat-icon material-icons']"
+	} ,
+	"Save for education":{
+		"DESKTOP_WEB":"xpath=//mat-label[contains(text(),'Save for education')]"
+	} ,
+	"goalAmmount":{
+		"DESKTOP_WEB":"xpath=//*[@id='mat-input-3']"
+	},
+	"years":{ 
+		"DESKTOP_WEB":"xpath=//*[@id='mat-input-2']"
+	}
+	,
+	"MinimumGoalammountrrormessage":{
+		"DESKTOP_WEB":"xpath=//*[contains(text(),'Minimum goal amount is 12778')]"
+		
+	},
+	"MinimumGoaldurationerrormessage":{
+		"DESKTOP_WEB":"xpath=//*[contains(text(),' Minimum goal duration is 2 ')]"
+	},
+	"monthlycontribution":{
+		"DESKTOP_WEB":"xpath=//*[@id='wrapper']/ig-main/div/ig-customer-goal-editor/div/div/form/div[2]/div/div/mat-label"
+	},
+	"monthlycontribution1":{
+		"DESKTOP_WEB":"xpath=//*[@id='wrapper']/ig-main/div/ig-customer-goal-editor/div/div/form/div[2]/div/div[1]/mat-label"
+	},
+	
+	"MaxGoaldurationerrormessage":{
+		"DESKTOP_WEB":"xpath=//*[contains(text(),' Maximum goal duration is 15 ')]"
+	}
+}

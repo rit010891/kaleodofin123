@@ -1,0 +1,198 @@
+{
+"Save for education":{
+		"DESKTOP_WEB":"xpath=//mat-label[contains(text(),'Save for education')]"
+	} ,
+	"goalAmmount":{
+		"DESKTOP_WEB":"xpath=//*[@id='mat-input-3']"
+	},
+	"years":{ 
+		"DESKTOP_WEB":"xpath=//*[@id='mat-input-2']"
+	},
+	"next":{ 
+		"DESKTOP_WEB":"xpath=//*[@id='next']"
+	},
+	"title":{ 
+		"DESKTOP_WEB":"xpath=//*[contains(text(),'Save for education')]"
+	},
+	"familyMember":{ 
+		"DESKTOP_WEB":"xpath= //*[contains(text(),' 4 ')]"
+	},
+	"Workinyourfamily":{ 
+		"DESKTOP_WEB":"xpath=(//*[@class='mat-radio-outer-circle'])[4]"
+	},
+	"Education Loan":{ 
+		"DESKTOP_WEB":"xpath=//span[contains(text(),' Education Loan ')]"
+	},
+	"home Loan":{ 
+		"DESKTOP_WEB":"xpath=//span[contains(text(),' Home Loan ')]"
+	},
+	"leassthan100":{ 
+		"DESKTOP_WEB":"xpath=//*[contains(text(),' Less than 1000 ')]"
+	},
+	"borrowfrombank":{ 
+		"DESKTOP_WEB":"xpath=//*[contains(text(),' Borrow from banks ')]"
+	},
+	"comfortable,saveCheckBox":{ 
+		"DESKTOP_WEB":"xpath=//*[contains(text(),' Comfortable, can save regularly ')]"
+	},
+	"city":{ 
+		"DESKTOP_WEB":"xpath=(//*[@class='mat-slide-toggle-thumb'])"
+	},
+	"state":{ 
+		"DESKTOP_WEB":"xpath=//label[contains(text(),'State')]"
+	},
+	"pincode":{ 
+		"DESKTOP_WEB":"xpath=//label[contains(text(),'Pincode')]"
+	},
+	"noRadioButton":{ 
+		"DESKTOP_WEB":"xpath=(//*[@class='mat-radio-outer-circle'])[2]"
+	},
+	"IAceept":{ 
+		"DESKTOP_WEB":"xpath=//span[contains(text(),'I ACCEPT')]"
+	},
+	
+	"setPayment":{ 
+		"DESKTOP_WEB":"xpath=//span[contains(text(),' SETUP PAYMENT ')]"
+	},
+	"googleplay":{ 
+		"DESKTOP_WEB":"xpath=//a[@href='https://play.google.com/store/apps/details?id=com.sensei.kaleidofin.kaleidofinCustomer&utm_source=web_app_signup&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1']"
+	},
+	"knowMoreBtn":{
+     	"MWEB":"xpath=//*[text()='Know More']",
+        "DESKTOP_WEB":"xpath=//*[text()='Know More']"
+    },
+    "knowMoreContent":{
+   		"MWEB":"xpath=//*[text()='Your investments']",
+        "DESKTOP_WEB":"xpath=//*[text()='Your investments']"
+    },
+    "closeBtn":{
+    	"MWEB":"xpath=(//*[text()='cancel'])[1]",
+        "DESKTOP_WEB":"xpath=(//*[text()='cancel'])[1]"
+    },
+    "t&CBtn":{
+   		"MWEB":"xpath=//a[text()=' Terms & Conditions']",
+        "DESKTOP_WEB":"xpath=//a[text()=' Terms & Conditions']"
+    },     "t&CContent":{
+     	"MWEB":"xpath=//*[text()='MASTER SERVICES AGREEMENT']",
+        "DESKTOP_WEB":"xpath=//*[text()='MASTER SERVICES AGREEMENT']"
+    },
+    "acceptBtn":{
+    	"MWEB":"id=agree",
+        "DESKTOP_WEB":"id=agree"
+    },
+     "ifscTxt":{
+   		"MWEB":"placeholder=Enter IFSC code",
+        "DESKTOP_WEB":"xpath=//input[@name='bankIfsc']"
+    },
+     "invalidIFSCErrMsg":{
+    	"MWEB":"xpath=//*[text()='Invalid IFSC code']",
+        "DESKTOP_WEB":"xpath=//*[text()='Invalid IFSC code']"
+    },
+    "emptyIFSCErrMsg":{
+   		"MWEB":"xpath=//*[text()='IFSC code is required.']",
+        "DESKTOP_WEB":"xpath=//*[text()='IFSC code is required.']"
+    },
+    "ifscCode":{
+    	"MWEB":"placeholder=Enter IFSC code",
+        "DESKTOP_WEB":"placeholder=Enter IFSC code"
+    },
+    "searchBtn":{
+    	"MWEB":"xpath=//button[@class='col-md-5 custom-button mat-button']",
+        "DESKTOP_WEB":"xpath=//button[@class='col-md-5 custom-button mat-button']"
+    },
+    "bankName":{
+    	"MWEB":"xpath=//*[text()='ICICI BANK LTD']",
+        "DESKTOP_WEB":"xpath=//*[text()='ICICI BANK LTD']"
+    },
+    "bankBranch":{
+   		"MWEB":"xpath=//*[text()='NEELANKARAI']",
+        "DESKTOP_WEB":"xpath=//*[text()='NEELANKARAI']"
+    },
+    "bankCode":{
+    	"MWEB":"xpath=//*[text()='002694']",
+        "DESKTOP_WEB":"xpath=//*[text()='002694']"
+    },
+    "accountNumberTxt":{
+    	"MWEB":"placeholder=Bank Account Number",
+        "DESKTOP_WEB":"placeholder=Bank Account Number"
+    },
+    "setupPaymentBtn":{
+        "DESKTOP_WEB":"xpath=//*[text()=' SETUP PAYMENT ']"
+    },
+    "btnPayment":{
+    	"MWEB":"xpath=//span[contains(text(),'PAYMENT')]",
+    	"DESKTOP_WEB":""
+    },
+    "congratulationsTxt":{
+    	"MWEB":"xpath=//*[text()='Congratulations!']",
+        "DESKTOP_WEB":"xpath=//*[text()='Congratulations!']"
+    },
+    "googlePlayTxt":{
+    	"MWEB":"xpath=//*[text()='Track progress with our app']",
+        "DESKTOP_WEB":"xpath=//*[text()='Track progress with our app']"
+    },
+    "googlePlayBtn":{
+    	"MWEB":"xpath=//a[contains(@href,'google')]",
+    	"DESKTOP_WEB":"xpath=//a[contains(@href,'google')]"
+    },
+   	"googlePlayScreen":{
+        "DESKTOP_WEB":"xpath=//*[text()='Kaleidofin Financial Wellness']"
+    },
+   	"EnterIFSCode":{
+        "DESKTOP_WEB":"xpath=//*[@placeholder='Enter IFSC code']"
+    },
+   	"IFSCodeinvalid":{
+        "DESKTOP_WEB":"xpath=//*[contains(text(),' IFSC code is invalid.')]"
+    },
+    "udan":{
+        "DESKTOP_WEB":"xpath=//label[contains(text(),'UDAAN')]"
+    },
+    "1stMon":{
+        "DESKTOP_WEB":"xpath=//*[@id='wrapper']/ig-main/div/ig-customer-recommendation-detail/div/div[2]/div/div[2]"
+    },
+    "2ndMon":{
+        "DESKTOP_WEB":"xpath=//*[@id='wrapper']/ig-main/div/ig-customer-recommendation-detail/div/div[2]/div/div[3]"
+    },
+    "Doesanyoneelseworkinyourfamily?":{
+    "DESKTOP_WEB":"xpath=//*[@class='col-md-3 mat-radio-button mat-accent ng-star-inserted'][1]"
+    },
+    "educational qualification?":{
+        "DESKTOP_WEB":"xpath=//div[contains(text(),' Post Graduate or higher ')]"
+    },
+    "dependents do you have in your family?":{
+        "DESKTOP_WEB":"xpath=//div[contains(text(),' 2 ')]"
+    },
+    "monthlsalary":{
+        "DESKTOP_WEB":"xpath=//div[contains(text(),' Greater than 200000 ')]"
+    },
+    "EMI / loan amount?":{
+        "DESKTOP_WEB":"xpath=//div[contains(text(),' Less than 10000 ')]"
+    },
+    "save every month?":{
+        "DESKTOP_WEB":"xpath=//div[contains(text(),' 25000 - 45000')]"
+    },
+    "Do you have any of these?":{
+        "DESKTOP_WEB":"xpath=//*[contains(text(),' Credit card ')]"
+    },
+    "Do you have any of these1":{
+        "DESKTOP_WEB":"xpath=//*[contains(text(),' Pet dog or cat ')]"
+    },
+    "Do you have any of these?2":{
+        "DESKTOP_WEB":"xpath=//*[contains(text(),' Gold ')]"
+    },
+    "Do you have any of these?3":{
+        "DESKTOP_WEB":"xpath=//*[contains(text(),' Car')]"
+    },
+    
+    "how much are you willing to invest?":{
+        "DESKTOP_WEB":"xpath=//*[contains(text(),' 6000 - 10000 ')]"
+    },
+    "next1":{
+        "DESKTOP_WEB":"xpath=//button[@id='next']"
+    },
+    "income and expenses?":{
+        "DESKTOP_WEB":"xpath=//div[contains(text(),' Yes')]"
+    }
+    
+    
+}

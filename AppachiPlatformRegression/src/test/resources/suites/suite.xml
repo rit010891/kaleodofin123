@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test name="Login">
+		<parameter name="device_name" value="One Plus one" />
+		<parameter name="udid" value="35374470" />
+		<parameter name="platform_ver" value="7.1.1" />
+		<parameter name="appium_url" value="http://127.0.0.1:4723/wd/hub" />
+		<parameter name="app_file_name" value="" />	
+		<parameter name="screenshots_dir" value="" />
+		<parameter name="platform" value="DESKTOP_WEB" /> <!-- platform_ values :::::: IOS/IOS_WEB/ANDROID/ANDROID_WEB/DESKTOP_WEB-->
+		<parameter name="browser" value="chrome" />
+		<parameter name="app_url" value="http://v2.appachhi.com/chhiscore/" />	
+	
+		<classes>
+			<class name="tests.LoginFlow"/>
+		</classes>
+	</test>
+</suite>

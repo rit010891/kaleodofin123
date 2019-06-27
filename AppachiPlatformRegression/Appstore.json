@@ -1,0 +1,29 @@
+{	
+    "appStore": {
+	"DESKTOP_WEB":"xpath=//div[contains(text(),'App Store')]"
+	},
+	"learnmore": {
+	"DESKTOP_WEB":"xpath=//div[contains(text(),'Learn More')]"
+	},
+	"calci": {
+	"DESKTOP_WEB":"xpath=//a[contains(text(),'Shipping Cost Calculator')]"
+	},
+	"pickpincode": {
+	"DESKTOP_WEB":"xpath=//*[@id='logistics-services']/div/div/div/div[2]/form/div/div[1]/div/ul/li/div[2]/input"
+	},
+	"deleverypincode": {
+	"DESKTOP_WEB":"xpath=//*[@id='logistics-services']/div/div/div/div[2]/form/div/div[2]/div/ul/li/div[2]/input"
+	},
+	"packageRadioBox": {
+	"DESKTOP_WEB":"xpath=//a[contains(text(),'Shipping Cost Calculator')]"
+	},
+	"valueofproduct": {
+	"DESKTOP_WEB":"xpath=//div[@class='collapse prefixed-input']"
+	},
+	"calculate": {
+	"DESKTOP_WEB":"xpath=//button[contains(text(),'Calculate')"
+	},
+	"costcalculator": {
+	"DESKTOP_WEB":"xpath=//*[contains(text(),'Shipping Cost Calculator')]"
+	}
+}
